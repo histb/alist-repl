@@ -1,7 +1,7 @@
 { pkgs }: {
   deps = [
-	pkgs.wget
-	pkgs.unzip
+    pkgs.wget
+    pkgs.unzip
     pkgs.vim
     pkgs.openssh
     pkgs.bashInteractive
