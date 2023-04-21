@@ -49,4 +49,4 @@
 > ```
 
 ## Password
-The initial password is randomly generated, and you can get it by checking the console logs.
+首次使用内置登录用户名 ```admin``` 密码已自动生成，在 console 日志里可以查看到.
