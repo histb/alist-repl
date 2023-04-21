@@ -1,6 +1,6 @@
 # alist-repl
 
-速度部署 alist 到 `repl.it` 点击下框 `run on repl.it` 即可.
+点击下面链接一键部署 alist 到 `repl.it`  然后点击 `run` 即可.
 
 <a href="https://repl.it/github/histb/alist-repl">
   <img alt="Run on Repl.it" src="https://repl.it/badge/github/histb/alist-repl" style="height: 40px; width: 190px;" />
