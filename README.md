@@ -1,13 +1,13 @@
-# alist-replit
+# alist-repl
 
-The fastest way to deploy the alist to `repl.it` is to click the `run on repl.it` button below.
+速度部署 alist 到 `repl.it` 点击下框 `run on repl.it` 即可.
 
 <a href="https://repl.it/github/histb/alist-repl">
   <img alt="Run on Repl.it" src="https://repl.it/badge/github/histb/alist-repl" style="height: 40px; width: 190px;" />
 </a>
 
 ## Database
-You may need to use another remote MySQL/Postgres database as local sqlite3 is public for everyone. Some Free MySQL/Postgres Databases:
+如果你需要使用远程数据库 MySQL/Postgres 请自行在下列地址获取:
 
 - https://db4free.net/
 - https://remotemysql.com/
@@ -18,8 +18,8 @@ You may need to use another remote MySQL/Postgres database as local sqlite3 is p
 - https://scalingo.com/
 - http://cloud.yugabyte.com/
 
-How to change the database?
-> Switch to `secrets` tab then edit `System environment variables`.You can also edit raw json:
+如何设置为你的远程数据库?
+> 点击 `secrets` 标签然后编辑 `System environment variables`. 也可以在 raw json 编辑如下:
 > ```json
 > {
 >   "DB_TYPE":"mysql",
@@ -32,7 +32,7 @@ How to change the database?
 >   "DB_SSL_MODE":"true"
 > }
 > ```
-> The secrets is private so you don't need to worry about leaking your data.
+> 使用私人数据库，你就不需要担心你的配置信息泄露.
 
 ### Sample Config https://bit.io/
 > ```json
